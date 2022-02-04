@@ -1,0 +1,9 @@
+HTML - Hypertext Markup Language
+CSS - Cascading Style Sheets
+Git is just the funk
+Refactoring is just rewriting code in a more easily usable way, i.e. adding annotations, changing divs to different titles (<header>, <footer>, <address>, etc.)
+
+User stories is the narrative that the customer gives for you to make the product for the customer.
+
+Acceptance Criteria is the set of criterion you must meet in order for the job to be considered complete
+
