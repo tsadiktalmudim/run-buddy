@@ -127,45 +127,62 @@ section {
     margin: 0 5px;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
-}
-
-.steps {
     text-align: center;
+}
+
+.step {
     background: #fce138;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: #39a6b2 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.steps span {
-    font-size: 38px;
-}
-
-.steps div {
-    margin-bottom: 80px;
-}
-
-.steps img {
-    width: 15%;
-    margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
     color: #024e76;
     font-size: 46px;
-    margin-top: 10px;
+    flex: 1 30%;
 }
 
-.steps p {
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
+.step-img img {
+    max-width: 100%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
     color: #39a6b2;
-    font-size: 23px;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
 
 .section-title {
@@ -175,6 +192,10 @@ section {
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -211,9 +232,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-.trainers {
-    text-align: center;
-}
+.trainers {}
 
 .trainer {
     width: 900px;
@@ -276,7 +295,6 @@ h3 {
 .contact {
     background: #024e76;
     padding: 20px 300px 100px 300px;
-    text-align: center;
 }
 
 .contact h2 {
@@ -314,4 +332,8 @@ iframe {
 
 .contact-info a {
     color: #fce138;
+}
+
+.flex-row {
+    display: flex;
 }
